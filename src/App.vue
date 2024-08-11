@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <GeneradorNumeros msg="Generador de Números de Lotería"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GeneradorNumeros from './components/GeneradorNumeros.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    GeneradorNumeros
   }
 }
 </script>
